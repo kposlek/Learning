@@ -1,1 +1,9 @@
-<p>{{ name }} u komponenti {{ bla }}</p>
+<p>{{ name }} u komponenti {{ bla }} {{ foo }}</p>
+<button (click)="maca()">mica maca</button>
+<p>title: {{ title }}</p>
+<input type="text" [value]="title" (keypress)="tipka($event)" />
+<hr />
+<p>Prvi Broj: <input type="text" (keypress)="setPrviBroj($event)" /></p>
+<p>Drugi Broj: <input type="text" (keypress)="setDrugiBroj($event)" /></p>
+<p><button (click)="zbroji()">Zbroji</button></p>
+<p>Zbroj: {{ zbroj }}</p>
