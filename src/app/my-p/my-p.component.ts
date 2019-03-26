@@ -20,12 +20,12 @@ export class MyPComponent {
   maca() {
     console.log('Ja sam mica maca... tralalaaalaaaa');
   }
-  tipka(event) {
-    this.title = event.target.value;
-  }
-  //   setPrviBroj(event) {
-  //     this.prviBroj = parseInt(event.target.value);
+  //   tipka(event) {
+  //     this.title = event.target.value;
   //   }
+  setPrviBroj(event) {
+    this.prviBroj = parseInt(event.target.value);
+  }
   setDrugiBroj(event) {
     this.drugiBroj = parseInt(event.target.value);
   }
